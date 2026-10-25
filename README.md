@@ -18,7 +18,7 @@ When it finishes, reboot and pick **i3** on the login screen. Open a terminal (`
 
 | Path | What it is |
 |---|---|
-| `.config/i3/` | i3 config, i3blocks bar, VMware clipboard fix |
+| `.config/i3/` | i3 config, i3blocks bar (with CPU graph), VMware clipboard fix |
 | `.config/alacritty/alacritty.toml` | Alacritty config (TOML format) |
 | `.config/rofi/` | `config.rasi` + `tokyo.rasi` theme |
 | `.config/compton/compton.conf` | Compositor (shadows, transparency) |

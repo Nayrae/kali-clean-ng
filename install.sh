@@ -90,6 +90,7 @@ for f in \
     .config/i3/config \
     .config/i3/i3blocks.conf \
     .config/i3/clipboard_fix.sh \
+    .config/i3/cpu_graph.sh \
     .config/alacritty/alacritty.toml \
     .config/compton/compton.conf \
     .config/rofi/config.rasi \
@@ -102,7 +103,7 @@ for f in \
     .wallpaper; do
     deploy "$f"
 done
-chmod +x ~/.config/i3/clipboard_fix.sh ~/.fehbg
+chmod +x ~/.config/i3/clipboard_fix.sh ~/.config/i3/cpu_graph.sh ~/.fehbg
 
 if [ "$(getent passwd "$USER" | cut -d: -f7)" != "$(command -v zsh)" ]; then
     info "Setting zsh as default shell"
